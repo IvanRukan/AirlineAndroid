@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FBF8DD">
+
+
+    <EditText
+        android:id="@+id/PassengerPlaceUpdate"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="Место на борту: "
+        android:inputType="text"
+        android:textColorHint="#A34343"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/PassngerAgeUpdate"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Возраст пассажира:"
+        android:inputType="text"
+        android:textColorHint="#A34343"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="78dp"
+        android:background="#A34343"
+        android:gravity="center"
+        android:text="Редактировать пассажира:"
+        android:textColor="#F9F7C9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#A34343"
+        android:text="Изменить"
+        android:textColor="#F9F7C9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#A34343"
+        android:text="Удалить"
+        android:textColor="#F9F7C9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/PassengerNameUpdate"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="ФИО пассажира:"
+        android:inputType="text"
+        android:textColorHint="#A34343"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
